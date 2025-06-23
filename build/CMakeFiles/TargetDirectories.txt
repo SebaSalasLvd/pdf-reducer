@@ -1,0 +1,6 @@
+/workspace/build/CMakeFiles/rebuild_cache.dir
+/workspace/build/CMakeFiles/edit_cache.dir
+/workspace/build/CMakeFiles/MiProyectoImGui.dir
+/workspace/build/third-party/imgui/CMakeFiles/rebuild_cache.dir
+/workspace/build/third-party/imgui/CMakeFiles/edit_cache.dir
+/workspace/build/third-party/imgui/CMakeFiles/imgui.dir
