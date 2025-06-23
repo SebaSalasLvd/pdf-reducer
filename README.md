@@ -1,4 +1,4 @@
-# pdf-reducer, objetivo del proyecto: Desarrollar una aplicación de escritorio para manipular pdfs
+# Proyecto: Desarrollar una aplicación simple de escritorio para manipular pdfs
 
 ### Requisitos:
 - Docker
