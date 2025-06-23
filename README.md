@@ -1,22 +1,8 @@
-# Proyecto: Desarrollar una aplicación simple de escritorio para manipular pdfs
+## Objetivo: Desarrollar una aplicación simple de escritorio para manipular archivos PDF
 
-### Requisitos:
-- Docker
-- C++17
-## Instrucciones
-Desde la raíz del repositorio, creamos un contenedor de docker y lo activamos
-`````bash
-docker build -t pdf-reducer .
-docker run --rm -it -v "$(Get-Location):/workspace" pdf-reducer
-`````
+#### Objetivos secundarios:
+- Aprender el entorno de desarrollo de Qt
+- Desarrollar una aplicación profesional con su respectiva GUI utilizando C++
+- Utilizar herramientas como Docker, CMake 
 
-Luego de ello  debemos movernos a build y ejecutar cmake para compilar nuestro main
-
-`````bash
-cd build
-cmake ..
-make
-`````
-En este punto se generó un ejecutable llamado PdfApp
-
-
+Autor: Sebastián Salas
