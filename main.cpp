@@ -1,3 +1,8 @@
+#include "imgui.h"
+#include "backends/imgui_impl_glfw.h"
+#include "backends/imgui_impl_opengl3.h"
+#include <GLFW/glfw3.h>
+
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -47,7 +52,8 @@ void extract_pages() {
         }
     } while (!file_exists(input));
 
-    std::cout << "Introduce el rango de páginas para extraer (ejemplo: 1-3): ";
+    std::cout << "Introduce el rango de páginas para extraer \n";
+    std::cout << "Introduce la página inicial del rango: ";
     std::cin >> start_page;
     std::cout << "Introduce la página final del rango (si es una sola página, usa el mismo número): ";
     std::cin >> end_page;
