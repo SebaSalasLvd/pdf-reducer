@@ -15,7 +15,8 @@ Luego de ello  debemos movernos a build y ejecutar cmake para compilar nuestro m
 `````bash
 cd build
 cmake ..
-````
-
+make
+`````
+En este punto se generó un ejecutable llamado PdfApp
 
 
